@@ -1,0 +1,61 @@
+.form-wrapper{
+  background: #fff;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  margin: 100px 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+}
+.form-wrapper h3{
+  font-size: 20px;
+  text-align: center;
+  line-height: 150%;
+}
+.input-fiuld-item{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+.input-fiuld-item input{
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.input-fiuld-item input:focus{
+  border: 1px solid #ad4e4e;
+}
+.input-fiuld-item input:focus-visible{
+  outline: none;
+}
+.input-fiuld-item select{
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+.input-fiuld-item select:focus{
+  border: 1px solid #ad4e4e;
+}
+.input-fiuld-item select:focus-visible{
+  outline: none;
+}
+.input-fiuld-item label{
+  font-size: 17px;
+  color: #000;
+  font-weight: 600;
+}
+.form-btn{
+  background: #ddd;
+  color: #000;
+  border: none;
+  width: fit-content;
+  padding: 10px 30px;
+  border-radius: 4px;
+}
